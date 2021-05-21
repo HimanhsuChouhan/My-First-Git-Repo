@@ -1,8 +1,10 @@
 public class Welcome
-{}[D
-[D[D[D[D[D[D[C[C[
- public static void main(String[] args)
-{[D [B[B[B[B[B{
-   System.out.println("Your Welcom on my[D[D[D[D[D[De[C[C[C[D[D[D [C[C[on my First Java Code");
-  }
+{
+	public static void main(String[] args)
+    {
+      System.out.println("Your Welcom on my First Java Code");
+	  System.out.println("This is Loop for print no. 1 to 10");
+	  for(int i=1;i<=10;i++)
+	     System.out.println(i);
+     }
 }
